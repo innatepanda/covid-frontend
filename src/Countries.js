@@ -1,7 +1,7 @@
 
 import React from 'react'
 import {
-    Card, Button, CardImg, CardTitle, CardText, CardGroup,
+    Card, Button, CardImg, CardTitle, CardText,
     CardSubtitle, CardBody, ButtonGroup, CardFooter
   } from 'reactstrap';
   import './App.css';
@@ -79,7 +79,7 @@ class Countries extends React.Component{
       
                 
                 {
-                    this.state.selected=='no'?
+                    this.state.selected==='no'?
                     <div className="card-grp">{
                     this.state.countries.map((country)=>{
                         return(

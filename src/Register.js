@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row, Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import {  Row, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import './App.css'
 const Register = (props) => {
   return (
